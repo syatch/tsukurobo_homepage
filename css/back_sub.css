@@ -1,0 +1,199 @@
+﻿ body {
+     background-color:black;  
+     background-repeat:repeat;
+     background-attachment: fixed;
+     width: 100%;
+     border: 0px;
+     padding: 0px;
+     margin: auto;
+     text-align:left;
+}
+
+
+
+#header{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+    padding: 0px;
+    margin: auto;
+	position: relative;
+	z-index:2;
+}
+
+#wrapper{
+	height:auto;
+	width:100%;
+	background-color: ;
+    background-image: url("../pictures/background.jpg");  
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center 100%;
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+    z-index:2;
+}
+
+#container{
+	height: auto;
+	width: 100%;
+	position: relative;
+	background-color:rgba(0,0,0,0.3);
+ 	border: 0px;
+    padding: 0px;
+    margin: auto;
+    z-index:2;
+}
+
+#space{
+	background-color:rgba(0,0,0,0.7);
+	width: 100%;
+	height:6vw;/*ここに高さ入力*/
+	position:relative;
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+ /*   text-align:left;*/
+	display:inline-block;
+	z-index:3;
+}
+
+#nav{	
+	background-color:rgba(0,0,0,0.7);
+	width: 100%;
+	height:6vw;/*ここに高さ入力*/
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+ /*   text-align:left;*/
+	display:inline-block;
+	z-index:4;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:6vw;
+    z-index:10;
+}
+
+.main{
+	width: 70%;
+	background-color:rgba(255,255,255,0.4);
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+    text-align:left;
+}
+
+
+#footer {
+	background-color:rgba(0,0,0,1);
+	width:100%;
+	bottom: 0;
+	position: relative;
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+    text-align:left;
+    z-index:2;
+}
+
+
+/* リンクの色 */   
+a.white{
+ font-size: 30px;
+}
+a.white:link {
+ text-decoration :none; 
+ color : black; 
+ }
+ a.white:visited {
+ text-decoration : none; 
+ color : orange; 
+ }
+ a.white:active {
+ text-decoration : none; 
+ color :orange; 
+ }
+ a.white:hover {
+ text-decoration : none; 
+ color : yellow; 
+ }
+
+
+/* 文字のデザイン*/
+
+
+.wf-hannari_1 { 
+    display: none;
+	font-family: "Hannari";
+	color:black;
+	font-size:5vw;
+	text-decoration:none;	
+	text-shadow: 0.2vw 0.2vw 0.2vw yellow,
+    -0.2vw 0.2vw 0.2vw yellow,
+    0.2vw -0.2vw 0.2vw yellow,
+    -0.2vw -0.2vw 0.2vw yellow;
+
+}
+.wf-hannari_2 { 
+	display: none;
+	font-family: "Hannari";
+	color:black;
+	font-size:5vw;
+	text-decoration:none;	
+	text-shadow: 0.2vw 0.2vw 0.2vw yellow,
+    -0.2vw 0.2vw 0.2vw yellow,
+    0.2vw -0.2vw 0.2vw yellow,
+    -0.2vw -0.2vw 0.2vw yellow;
+
+}
+.wf-sawarabimincho { font-family: "Sawarabi Mincho";
+}
+
+
+.base {
+    color: white;
+    font-family: "Sawarabi Mincho";
+    font-size: 30px;
+    font-weight:bold ;
+    text-shadow: 0.2px 0.2px 0.1px black,
+    -0.2px 0.2px 0.1px black,
+    0.2px -0.2px 0.1px black,
+    -0.2px -0.2px 0.1px black;
+}
+.bigfont {
+    color: orange;
+    font-family: "Sawarabi Mincho";
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px yellow,
+    -1px 1px 1px yellow,
+    1px -1px 1px yellow,
+    -1px -1px 1px yellow;
+}
+.midlefont {
+    color: orange;
+    font-family: "Sawarabi Mincho";
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 0.2px 0.2px 0.1px #66ff33,
+    -0.2px 0.2px 0.1px #66ff33,
+    0.2px -0.2px 0.1px #66ff33,
+    -0.2px -0.2px 0.1px #66ff33;
+}
+.footerfont {
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: 0.2px 0.2px 0.1px #66ff33,
+    -0.2px 0.2px 0.1px #66ff33,
+    0.2px -0.2px 0.1px #66ff33,
+    -0.2px -0.2px 0.1px #66ff33;
+}
+
