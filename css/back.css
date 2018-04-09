@@ -147,6 +147,9 @@ video {
 
 /* リンクの色 */   
 
+a.white{
+ font-size: 30px;
+}
 a.white:link {
  text-decoration :none; 
  color : black; 
