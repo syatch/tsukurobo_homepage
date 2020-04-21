@@ -36,6 +36,8 @@
     padding: 0px;
     margin: auto;
     z-index:2;
+
+
 }
 
 #container{
@@ -91,6 +93,9 @@
     text-align:left;
 }
 
+.tweet{
+	float:right;
+}
 
 #footer {
 	background-color:rgba(0,0,0,1);
