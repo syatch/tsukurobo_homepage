@@ -110,7 +110,7 @@ a.white{
 }
 a.white:link {
  text-decoration :none; 
- color : black; 
+ color : greenyellow; 
  }
  a.white:visited {
  text-decoration : none; 
