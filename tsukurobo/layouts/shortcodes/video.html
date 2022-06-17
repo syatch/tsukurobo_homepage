@@ -1,0 +1,13 @@
+<!-- video -->
+<div class="archive_tab">
+    <input type="checkbox" id="{{ .Get "id" }}">
+    <label for="{{ .Get "id" }}"><div class="archive_base">{{ .Get "title" }}</div></label>
+    <div class="archive_tab_show">
+        <div class="archive_contents">
+            <center>
+                <video src="/video/{{ .Get "file" }}" width="80%" controls playsinline></video>
+            </center>
+        </div>
+    </div>
+</div>
+<!-- video -->
