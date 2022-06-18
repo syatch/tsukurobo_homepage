@@ -24,7 +24,8 @@ enableRobotsTXT = true
 
 [params]
 
-  mainSections = ['blog']
+  mainSections = ['news']
+
   custumCSS = ["/css/custum.css"]
 
   [params.logo]
@@ -74,9 +75,9 @@ enableRobotsTXT = true
     weight = 3
 
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "news"
+    name = "News"
+    url = "/news/"
     weight = 4
 
   [[menu.main]]
