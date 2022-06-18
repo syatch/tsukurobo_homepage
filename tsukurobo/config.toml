@@ -24,7 +24,7 @@ enableRobotsTXT = true
 
 [params]
 
-  mainSections = ['つくばろぼっとサークル']
+  mainSections = ['blog']
   custumCSS = ["/css/custum.css"]
 
   [params.logo]
@@ -74,9 +74,9 @@ enableRobotsTXT = true
     weight = 3
 
   [[menu.main]]
-    identifier = "news"
-    name = "News"
-    url = "/news/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 4
 
   [[menu.main]]
