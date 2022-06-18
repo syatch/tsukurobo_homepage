@@ -4,7 +4,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {{ range .Site.Data.features }}
             <div class="bg-white text-center mx-2 px-4 py-10 duration-300 transform hover:-translate-y-1 hover:shadow-lg">
-                {{if .link }}<a href="{{ .link }}">{{ end }}
+                {{if .link }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ end }}
                     <div class="p-1">
                         {{if .icon }}
                         <span class="{{ .icon }} text-5xl"></span>

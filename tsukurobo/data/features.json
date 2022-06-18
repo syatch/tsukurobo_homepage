@@ -12,7 +12,9 @@
     "img_alt": "RIP Servo"
   },
   {
-    "title": "ネタ切れ",
-    "description": "ぱわー"
+    "title": "新歓情報",
+    "description": "新歓・入会の最新情報は <br> 新歓Twitter(@tsukurobo_s)で <br> お届けしています! <br> 2022年度新歓情報のご案内はこちら",
+    "icon": "icon-twitter",
+    "link": "https://twitter.com/tsukurobo_s"
   }
 ]
