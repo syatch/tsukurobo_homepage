@@ -5,16 +5,16 @@ draft: false
 ---
 ### Twitter
 サークルのTwitterアカウントです。
-* https://twitter.com/tsukurobo
+* {{<twitter_link tsukurobo Twitterアカウント>}}
 
 サークルの新歓Twitterアカウントです。\
 入会を考えている方はここで最新情報をチェック！
-* https://twitter.com/tsukurobo_s
+* {{<twitter_link tsukurobo_s 新歓Twitterアカウント>}}
 
 ### GitHub
 サークルのGitHubページです。
-* https://github.com/tsukurobo
+* {{<github_link tsukurobo>}}
 
 ### つくろぼwiki
 内部向け ここ数年放置されているので、備忘として記載します。
-* https://w.atwiki.jp/tsukurobo/
+* {{<out_link "https://w.atwiki.jp/tsukurobo/">}}

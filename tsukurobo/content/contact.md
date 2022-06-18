@@ -10,6 +10,6 @@ draft: false
 ### お問い合わせ
 お問い合わせは以下のTwitterでのDMまたはメールへお願いします。
 
-[公式Twitterアカウント](https://twitter.com/tsukurobo)
+{{<twitter_link tsukurobo Twitterアカウント>}}
 
 ![メールアドレス](/img/gmail.jpg)

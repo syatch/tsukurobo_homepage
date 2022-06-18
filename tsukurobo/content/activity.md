@@ -17,7 +17,7 @@ NHK主催のロボコン。
 書類選考を通過すると本選に参加できます。
 また本選で優勝すると、ABUロボコンに出場できます。
 詳しくは「NHK学生ロボコン」で検索してください。\
-[NHK学生ロボコン](https://official-robocon.com/gakusei/)
+{{<out_link "https://official-robocon.com/gakusei/" NHK学生ロボコン>}}
 
 ### つくばチャレンジ
 過去よく出場していましたが、近年は参加していません。
@@ -25,4 +25,4 @@ NHK主催のロボコン。
 通行人やちょっとした障害にも対応する必要があるので
 「つくばロボットコンテスト」より難易度は高いです。
 詳しくは「つくばチャレンジ」で検索してください。\
-[つくばチャレンジ](https://tsukubachallenge.jp)
+{{<out_link "https://tsukubachallenge.jp" つくばチャレンジ>}}
