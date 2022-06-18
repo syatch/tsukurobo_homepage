@@ -5,6 +5,9 @@
             <img src="{{ .image }}" alt="">
             <div class="s-fade-txt">
                 <h1 class="text-4xl text-white">{{ .title }}</h1>
+                {{if .title2}}
+                <h1 class="text-4xl text-white">{{ .title2 }}</h1>
+                {{ end }}
             </div>
         </div>
         {{ end }}
