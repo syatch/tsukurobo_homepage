@@ -1,4 +1,4 @@
-baseURL = "http://tsukurobo.web.fc2.com"
+baseURL = ""
 title = "つくばろぼっとサークル"
 author = "Tsukuba Robor Circle"
 languageCode = "ja"
@@ -15,10 +15,12 @@ enableRobotsTXT = true
 
 # Disqus Comment System
 #disqusShortname = ""
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+
+# Allow raw HTML
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.renderer]
+#      unsafe = true
 
 [params]
 
@@ -26,7 +28,7 @@ enableRobotsTXT = true
   expandCSS = ["/css/expand.css"]
 
   [params.logo]
-    main = "img/tsukurobo_icon.jpg"
+    main = "img/icon/tsukurobo_icon.jpg"
     alt = "TRC Logo"
 
     # The size parameter is the class name of tailwindcss
@@ -45,7 +47,7 @@ enableRobotsTXT = true
     meta_og_title = "Tsukuba Robot Circle"
     meta_og_type = "website"
     meta_og_url = ""
-    meta_og_image = "img/tsukurobo_icon.jpg"
+    meta_og_image = "img/icon/tsukurobo_icon.jpg"
     meta_og_description = "The Robot Circle at Univ.Tsukuba"
     meta_twitter_card = "official twitter"
     meta_twitter_site = "@tsukurobo"

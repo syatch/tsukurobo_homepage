@@ -10,22 +10,14 @@
 
 /*動作*/
 .archive_tab {
-    transition: transform 0.8s;
+    transition-duration:1000ms;
 }
 
 div.archive_base {
-    transition: 0.5s;
+    transition-duration:1000ms;
 }
 
 div.archive_base:hover {
-    color : #6600CC;
-}
-
-a.archive_base {
-    transition: 0.5s;
-}
-
-a.archive_base:hover {
     color : #6600CC;
 }
 
@@ -38,12 +30,12 @@ a.archive_base:hover {
     padding: 0;
     overflow: hidden;
     opacity: 0;
-    transition: 0.5s;
 }
 
 .archive_tab input:checked ~ .archive_tab_show {
     height: auto;
     opacity: 1;
+    transition-duration:1000ms;
 }
 
 .archive_tab input:checked ~ label > div.archive_base {

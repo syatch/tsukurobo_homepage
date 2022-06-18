@@ -3,9 +3,6 @@ title: "Activity"
 date: 2022-06-18T02:06:11+09:00
 draft: false
 ---
-{{<twitter tsukurobo>}}
-{{<twitter tsukurobo_s>}}
-
 ### 活動内容
 つくばろぼっとサークルでは様々なロボコンに参加しています。
 
