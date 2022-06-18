@@ -22,14 +22,14 @@
     </div>
     {{- partial "slide.html" . -}}
     {{- partial "strip.html" . -}}
-    <center>
-        {{ partial "twitter.html" (dict "account" .Type "ID" "tsukurobo") }}
-        {{ partial "twitter.html" (dict "account" .Type "ID" "tsukurobo_s") }}
-    </center>
     <div class="mx-auto my-10 max-w-6xl">
         <h2 class="text-4xl ml-2">not Blog</h2>
         {{- partial "recent.html" . -}}
     </div>
+    <center>
+        {{ partial "twitter.html" (dict "account" .Type "ID" "tsukurobo") }}
+        {{ partial "twitter.html" (dict "account" .Type "ID" "tsukurobo_s") }}
+    </center>
     {{- partial "footer.html" . -}}
     <script src="{{ "/js/swiper-bundle.min.js" | relURL }}"></script>
     <script>

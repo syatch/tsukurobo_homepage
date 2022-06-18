@@ -1,18 +1,18 @@
 [
   {
-    "title": "Simple",
-    "description": "All the bare necessities are there.",
-    "icon": "img/icon/tsukurobo_icon.jpg"
+    "title": "ロボット製作",
+    "description": "ロボットは思い通りには動きません。<br>作った通りに動きます。<br>動いて。",
+    "img": "img/icon/robot_for_human.png",
+    "img_alt": "Robot For Human?"
   },
   {
-    "title": "Fast",
-    "description": "Light weight and fast loading speed.",
-    "icon": "icon-lightbulb_outline"
+    "title": "RIP",
+    "description": "また無茶な扱いで部品が壊れた。<br>安らかに眠って。大丈夫、安心して。<br>あなたには替わりがある。<br>え？今ので最後？",
+    "img": "img/icon/RIP.jpg",
+    "img_alt": "RIP Servo"
   },
   {
-    "title": "Github",
-    "description": "Please fork the Github repository and contribute to this theme!",
-    "icon": "icon-github",
-    "link": "https://github.com/opera7133/tella"
+    "title": "ネタ切れ",
+    "description": "ぱわー"
   }
 ]
