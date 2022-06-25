@@ -1,0 +1,23 @@
+\section{本文書の更新方法}
+本文書は \LaTeX で編集している.以下の手順で \LaTeX をインストールする.
+\subsection{UbuntuにLaTexをインストール}
+以下のコマンドを実行し, \LaTeX をインストールする.
+順に,メインモジュール,日本語(UTF-8)環境,フォントをインストール.
+\begin{lstlisting}[]
+  $sudo apt-get install texlive
+  $sudo apt-get install texlive-lang-cjk
+  $sudo apt-get install texlive-fonts-recommended texlive-fonts
+\end{lstlisting}
+
+\paragraph{\TeX ファイルをコンパイル} \leavevmode
+
+以下のコマンドを入力し,pdfファイルを生成する.
+\begin{lstlisting}[]
+  $platex <file name>
+  $dvipdfmx <file name>
+\end{lstlisting}
+
+\subsection{参考}
+コンパイル方法
+
+: \url{http://www.yamamo10.jp/yamamoto/comp/latex/run/run.php#PROCESS_PDF}

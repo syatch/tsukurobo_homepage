@@ -1,3 +1,6 @@
 [submodule "tsukurobo/themes/tella"]
 	path = tsukurobo/themes/tella
 	url = https://github.com/opera7133/tella.git
+[submodule "Manual/PXjahyper"]
+	path = Manual/PXjahyper
+	url = https://github.com/zr-tex8r/PXjahyper.git
