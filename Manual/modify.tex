@@ -33,3 +33,30 @@ config.tomlの
   $hugo new hoge.md
 \end{lstlisting}
 の後,contents/hoge.mdの上部を埋め,内容をを編集.
+
+\subsection{サイトURLの変更}
+config.toml内,
+\begin{lstlisting}[]
+baseURL = "https://tsukurobo.github.io"
+\end{lstlisting}
+と
+\begin{lstlisting}[]
+[params.homepage_meta_tags]
+meta_og_url = "https://tsukurobo.github.io"
+\end{lstlisting}
+を変更する.
+
+\subsection{サイトの生成}
+\subsubsection{ページのプレビュー}
+\begin{lstlisting}[]
+  $npm run start
+\end{lstlisting}
+
+ブラウザで\url{http://localhost:1313/}を開く.
+
+\subsubsection{生成}
+\begin{lstlisting}[]
+  $npm run build
+\end{lstlisting}
+
+public/に生成されたファイルをアップロードする.
