@@ -1,0 +1,9 @@
+<!-- out link -->
+<a href={{ index .Params 0 }} target="_blank" rel="noopener noreferrer">
+    {{if index .Params 1 }}
+        {{index .Params 1 }}
+    {{else}}
+        {{ index .Params 0 }}
+    {{end}}
+</a>
+<!-- out link -->

@@ -1,0 +1,111 @@
+baseURL = "https://tsukurobo.github.io"
+title = "つくばろぼっとサークル"
+author = "Tsukuba Robor Circle"
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+# Allow raw HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+
+  mainSections = ['news']
+
+  custumCSS = ["/css/custum.css"]
+
+  [params.logo]
+    main = "img/icon/tsukurobo_icon.png"
+    alt = "TRC Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "つくばろぼっとサークル"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fa5 = true
+
+  [params.homepage_meta_tags]
+    meta_description = "The Robot Circle at Univ.Tsukuba"
+    meta_og_title = "Tsukuba Robot Circle"
+    meta_og_type = "website"
+    meta_og_url = "https://tsukurobo.github.io"
+    meta_og_image = "img/icon/tsukurobo_icon.png"
+    meta_og_description = "The Robot Circle at Univ.Tsukuba"
+    meta_twitter_card = "official twitter"
+    meta_twitter_site = "@tsukurobo"
+    meta_twitter_creator = "@tsukurobo"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "Home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "activity"
+    name = "Activity"
+    url = "/activity/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "history"
+    name = "History"
+    url = "/history/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "link"
+    name = "Link"
+    url = "/link/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Twitter"
+    url = "https://twitter.com/tsukurobo"
+    pre = "<i class='icon-twitter text-2xl'></i>"
+      weight = 2
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/tsukurobo"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 3

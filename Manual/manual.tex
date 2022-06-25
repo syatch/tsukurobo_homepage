@@ -1,0 +1,60 @@
+\documentclass[dvipdfmx]{jsarticle}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{import}
+
+\makeatletter
+\newcommand{\subsubsubsection}{\@startsection{paragraph}{4}{\z@}%
+  {1.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+  {.1\Cvs \@plus.3\Cdp}%
+  {\reset@font\sffamily\normalsize}
+}
+\makeatother
+
+\title{Webページ ver.HUGO 手順書}
+\author{}
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\textbfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  % numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+\renewcommand{\lstlistingname}{ソースコード}
+
+\begin{document}
+\maketitle
+
+\newpage
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\tableofcontents
+
+
+\newpage
+\section{本文書について}
+このマニュアルは,tsukurobo\_homepageの管理・運用手順を記載したものです.
+
+\import{/}{environment}
+
+\newpage
+\import{/}{modify}
+
+\newpage
+\import{/}{update}
+
+\end{document}

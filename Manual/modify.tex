@@ -1,0 +1,35 @@
+\section{編集方法}
+簡単なページ運用の操作を記載しています.
+
+\subsection{トップページ・404ページの編集}
+layouts/index.html,layouts/404.htmlを編集する.
+
+\subsection{ページの編集}
+contents/のファイルを編集する.マークダウン記法.
+
+\subsection{Newsの追加}
+\begin{lstlisting}[]
+  $hugo new news/hoge.md
+\end{lstlisting}
+
+contents/news/hoge.md上部を埋める.
+
+\subsection{メニューのタブ・コンテンツの追加}
+config.tomlの
+\begin{lstlisting}[]
+  [menu]
+\end{lstlisting}
+に
+\begin{lstlisting}[]
+[[menu.main]]
+  identifier = "hoge"
+  name = "Hoge"
+  url = "/hoge/"
+  weight = fuga
+\end{lstlisting}
+を追加する.
+
+\begin{lstlisting}[]
+  $hugo new hoge.md
+\end{lstlisting}
+の後,contents/hoge.mdの上部を埋め,内容をを編集.

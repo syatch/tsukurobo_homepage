@@ -1,0 +1,20 @@
+[
+  {
+    "title": "ロボット製作",
+    "description": "ロボットは思い通りには動きません。<br>作った通りに動きます。<br>動いて。",
+    "img": "img/icon/robot_for_human.png",
+    "img_alt": "Robot For Human?"
+  },
+  {
+    "title": "RIP",
+    "description": "また無茶な扱いで部品が壊れた。<br>安らかに眠って。大丈夫、安心して。<br>あなたには替わりがある。<br>え？今ので最後？",
+    "img": "img/icon/RIP.jpg",
+    "img_alt": "RIP Servo"
+  },
+  {
+    "title": "新歓情報",
+    "description": "新歓・入会の最新情報は <br> 新歓Twitter(@tsukurobo_s)で <br> お届けしています! <br> 2022年度新歓情報のご案内はこちら",
+    "icon": "icon-twitter",
+    "link": "https://twitter.com/tsukurobo_s"
+  }
+]

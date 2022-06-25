@@ -1,0 +1,94 @@
+\section{環境構築}
+Webページの生成にHUGOという静的サイトジェネレータを使用する.
+また,デザインにTellaというHUGOのテーマを使用する.
+この章ではこれらの導入手順を示す.
+
+\subsection{Hugoのインストール}
+以下のページに従い,HUGOをインストールする.
+
+Install HUGO : \url{https://gohugo.io/getting-started/installing/}
+
+Ubuntuでのインストール手順は次項に記載.
+
+\subsubsection{UbuntuへのHUGOのインストール}
+以下Ubuntu20.04で操作を確認(2022/06)
+
+\paragraph{brewをインストール} \leavevmode
+参考　Homebrew : \url{https://brew.sh/}
+
+brewがインストールされていない場合,以下のコマンドを実行する.
+\begin{lstlisting}[]
+  $/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+\end{lstlisting}
+
+インストール出来たら,パスを追加する.
+\begin{lstlisting}[]
+  $echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/<user name>/.profile
+  $eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+\end{lstlisting}
+
+\paragraph{HugoをUbuntuにインストール} \leavevmode
+brewでHUGOをインストールする.
+\begin{lstlisting}[]
+  $brew install hugo
+\end{lstlisting}
+
+hugoがインストールされたことを確認.
+\begin{lstlisting}[]
+  $hugo version
+\end{lstlisting}
+
+\subsection{HUGO Themes : Tellaの導入}
+すでに済んでいる.備忘のため,以下にURLを記載する.
+
+HUGO Themes:Tella : \url{https://themes.gohugo.io/themes/tella/}
+
+\subsubsection{npmのインストール}
+
+tsukurobo/で以下のコマンドを実行.
+\begin{lstlisting}[]
+  $npm install
+\end{lstlisting}
+
+\subsubsection{ローカルで作成したサイトを確認}
+
+\begin{lstlisting}[]
+  $npm run start
+\end{lstlisting}
+
+ここで,以下のようなエラーが出る場合がある.
+
+\begin{lstlisting}[]
+  $Error: yargs parser supports a minimum Node.js version of 12. Read our(以下略
+\end{lstlisting}
+
+node.jsのバージョンが古いのが原因.
+以下のコマンドでnode.jsのバージョンを確認.
+
+\begin{lstlisting}[]
+  $node --version
+\end{lstlisting}
+
+nodejs : \url{https://nodejs.org/ja/}
+で最新版を確認.
+
+\begin{lstlisting}[]
+  $curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+  $sudo apt-get install -y nodejs
+\end{lstlisting}
+
+再度実行し動作を確認.
+
+\begin{lstlisting}[]
+  $npm run start
+\end{lstlisting}
+
+ブラウザで\url{http://localhost:1313/}を開く.
+
+\subsubsection{サイトのビルド}
+
+\begin{lstlisting}[]
+  $npm run build
+\end{lstlisting}
+
+tsukurobo/public/にビルドされる.
